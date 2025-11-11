@@ -1,0 +1,1 @@
+The Daily Calorie Tracker is a small Python project that helps users keep track of what they eat in a day. It lets you enter your meals and the number of calories for each, then shows the total and average calories you’ve eaten This project helped me learn how to write simple and clear Python code to solve a real-life problem.
