@@ -1,1 +1,3 @@
+The Library Inventory Manager is a simple Python-based application that helps manage books using object-oriented programming concepts. The system allows users to add books, issue and return books, search by title or ISBN, and view the entire catalog. All data is saved in a JSON file, ensuring that the library records remain available even after restarting the program.
 
+The project follows a modular structure using separate files for the Book class, inventory logic, and the CLI interface. It includes proper exception handling, input validation, and logging to ensure smooth and reliable operation. This tool is ideal for understanding OOP, file handling, and Python project organization.
