@@ -1,1 +1,5 @@
+The Campus Energy-Use Dashboard is a Python-based capstone project designed to analyze and visualize electricity consumption across multiple campus buildings. The system automatically reads multiple CSV files from a /data folder, merges them into a single dataset, cleans the data, and performs detailed time-based aggregations such as daily totals, weekly consumption, and building-wise summaries.
 
+The project is built using Pandas for data handling, Matplotlib for visualization, and an object-oriented model that organizes buildings, meter readings, and the overall manager. A combined dashboard image with line plots, bar charts, and scatter plots is generated and saved as dashboard.png. The program also exports cleaned datasets, summary reports, and a text-based executive summary to the /output directory.
+
+This project demonstrates complete end-to-end data processing — ingestion, validation, aggregation, OOP modeling, visualization, and automated reporting — making it a practical example of Python-based analytical pipeline design.
