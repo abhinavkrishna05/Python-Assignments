@@ -1,1 +1,3 @@
+The Weather Data Visualizer is a Python-based data analysis tool that loads real-world weather data from a CSV file, cleans it, and generates meaningful insights through statistics and visualizations. The program uses Pandas for data processing, NumPy for numerical calculations, and Matplotlib for generating line charts, bar graphs, scatter plots, and combined plots.
 
+It computes key metrics such as daily temperature trends, monthly rainfall totals, humidity–temperature relationships, and grouped monthly summaries. The cleaned dataset and all generated charts are exported as files, making the analysis easy to review. This project provides a simple and practical example of data cleaning, analysis, and visualization in Python.
