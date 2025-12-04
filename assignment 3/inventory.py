@@ -44,16 +44,17 @@ class LibraryInventory:
 
     def load_books(self):
         if not os.path.exists(self.filename):
-            return  # File doesn't exist yet, start with empty list
+            return  
 
         try:
             with open(self.filename, 'r') as f:
                 data = json.load(f)
                 self.books = []
                 for item in data:
-                    # Recreate Book objects from dictionary data
+                    
                     book = Book(item['title'], item['author'], item['isbn'], item['status'])
                     self.books.append(book)
         except (json.JSONDecodeError, IOError):
             print("Error loading data. Starting with empty inventory.")
+
             self.books = []
